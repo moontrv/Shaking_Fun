@@ -12,6 +12,13 @@
 		AD6E530A1CF7730100E50B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6E53081CF7730100E50B5B /* Main.storyboard */; };
 		AD6E530C1CF7730100E50B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6E530B1CF7730100E50B5B /* Assets.xcassets */; };
 		AD6E530F1CF7730100E50B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6E530D1CF7730100E50B5B /* LaunchScreen.storyboard */; };
+		AD6E531D1CF786FB00E50B5B /* beep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E53161CF786FB00E50B5B /* beep1.mp3 */; };
+		AD6E531E1CF786FB00E50B5B /* beep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E53171CF786FB00E50B5B /* beep2.mp3 */; };
+		AD6E531F1CF786FB00E50B5B /* beep3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E53181CF786FB00E50B5B /* beep3.mp3 */; };
+		AD6E53201CF786FB00E50B5B /* beep4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E53191CF786FB00E50B5B /* beep4.mp3 */; };
+		AD6E53211CF786FB00E50B5B /* beep11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E531A1CF786FB00E50B5B /* beep11.mp3 */; };
+		AD6E53221CF786FB00E50B5B /* beep12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E531B1CF786FB00E50B5B /* beep12.mp3 */; };
+		AD6E53231CF786FB00E50B5B /* beep13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD6E531C1CF786FB00E50B5B /* beep13.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		AD6E530B1CF7730100E50B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6E530E1CF7730100E50B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6E53101CF7730100E50B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6E53161CF786FB00E50B5B /* beep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep1.mp3; sourceTree = "<group>"; };
+		AD6E53171CF786FB00E50B5B /* beep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep2.mp3; sourceTree = "<group>"; };
+		AD6E53181CF786FB00E50B5B /* beep3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep3.mp3; sourceTree = "<group>"; };
+		AD6E53191CF786FB00E50B5B /* beep4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep4.mp3; sourceTree = "<group>"; };
+		AD6E531A1CF786FB00E50B5B /* beep11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep11.mp3; sourceTree = "<group>"; };
+		AD6E531B1CF786FB00E50B5B /* beep12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep12.mp3; sourceTree = "<group>"; };
+		AD6E531C1CF786FB00E50B5B /* beep13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep13.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,25 @@
 				AD6E53061CF7730100E50B5B /* ViewController.swift */,
 				AD6E53081CF7730100E50B5B /* Main.storyboard */,
 				AD6E530B1CF7730100E50B5B /* Assets.xcassets */,
+				AD6E53241CF7870B00E50B5B /* sounds */,
 				AD6E530D1CF7730100E50B5B /* LaunchScreen.storyboard */,
 				AD6E53101CF7730100E50B5B /* Info.plist */,
 			);
 			path = "Swipe And Shake";
+			sourceTree = "<group>";
+		};
+		AD6E53241CF7870B00E50B5B /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AD6E53161CF786FB00E50B5B /* beep1.mp3 */,
+				AD6E53171CF786FB00E50B5B /* beep2.mp3 */,
+				AD6E53181CF786FB00E50B5B /* beep3.mp3 */,
+				AD6E53191CF786FB00E50B5B /* beep4.mp3 */,
+				AD6E531A1CF786FB00E50B5B /* beep11.mp3 */,
+				AD6E531B1CF786FB00E50B5B /* beep12.mp3 */,
+				AD6E531C1CF786FB00E50B5B /* beep13.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E531F1CF786FB00E50B5B /* beep3.mp3 in Resources */,
+				AD6E531D1CF786FB00E50B5B /* beep1.mp3 in Resources */,
+				AD6E53201CF786FB00E50B5B /* beep4.mp3 in Resources */,
 				AD6E530F1CF7730100E50B5B /* LaunchScreen.storyboard in Resources */,
+				AD6E53231CF786FB00E50B5B /* beep13.mp3 in Resources */,
 				AD6E530C1CF7730100E50B5B /* Assets.xcassets in Resources */,
 				AD6E530A1CF7730100E50B5B /* Main.storyboard in Resources */,
+				AD6E53211CF786FB00E50B5B /* beep11.mp3 in Resources */,
+				AD6E53221CF786FB00E50B5B /* beep12.mp3 in Resources */,
+				AD6E531E1CF786FB00E50B5B /* beep2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
